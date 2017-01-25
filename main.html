@@ -1,0 +1,62 @@
+  <html>
+  <head>
+       
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="ajax_pagin_design.css">
+        <link rel="stylesheet" type="text/css" href="ajax_cssdesign.css">  
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <script type="text/javascript" src="ajax.js"></script>
+       <script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+   <div class="container" align="center"></div> 
+      <ul id="btns"  class="pagination"></ul>
+
+ <div   id="info" align="center"  >
+   <h3 id="head">Enter Details</h3>
+    <form  class="form-inline" name="form" id="form" method="POST" >
+      <div class="form-group" align="center" > 
+
+        <label class="control-label col-sm-2" for="Name">Name:</label>  
+          <div class="col-sm-10">
+            <input type="text" name="Name" id="Name" class="form-control" value="" 
+                         placeholder="Enter Name" />
+        </div>
+   </div><br>
+
+      <div class="form-group" align="center" >
+       
+        <label class="control-label col-sm-2" for="email">Email:</label>
+           <div class="col-sm-10">
+              <input type="email" name="email;" id="email" class="form-control" value="" 
+                         placeholder="Enter Email" />
+        </div>
+  </div><br>
+      
+      <div class="form-group" align="center" >
+        
+        <label class="control-label col-sm-2" for="message">Message:</label>
+           <div class="col-sm-10">
+              <input type="text" name="message"   id="message" class="form-control" value="" 
+                      placeholder="Enter Your Message" />
+        </div>
+  </div><br>
+
+     <div class="form-group" >
+        
+        <label class="control-label col-sm-2" for="date">Date:</label>
+          <div class="col-sm-10">
+             <input type="date" name="date"   id="date" class="form-control" value="" />
+       </div>
+  </div><br>
+     <div class="form-group">        
+        <div class="col-sm-offset-2 col-sm-10">
+           <input type="submit" name="submit" id="submit"  align="center" class="btn-success"  
+             class="alert alert-success" value="submit" /><br>
+        </div>
+     </div>
+  </div>
+</form>
+</body>
+</html>
